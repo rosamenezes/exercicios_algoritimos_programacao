@@ -3,7 +3,7 @@ saque_deposito = input("1 - Realizar saque: \n2 - Realizar depósito: \n")
 
 valor = 0
 if saque_deposito == "1":
-    valor = float(input("Digite o valor do saque: "))
+    valor = float(input("Digite o valor do saque:      "))
     if valor > saldo:
         print("Operação não permitida")
     else:
